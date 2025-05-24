@@ -39,7 +39,11 @@ Our system implements a sophisticated agentic workflow that breaks down complex 
 
 ## Agentic Workflow
 
-![System Architecture](assets/system-architecture.png)
+![System Architecture](agentic-workflow.png)
+
+## Demonstration
+
+![System Architecture](demonstration.png)
 
 ### Process Flow
 
