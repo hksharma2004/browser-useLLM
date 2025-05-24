@@ -39,11 +39,11 @@ Our system implements a sophisticated agentic workflow that breaks down complex 
 
 ## Agentic Workflow
 
-![System Architecture](agentic-workflow.png)
+![System Architecture](assets/workflow.png)
 
 ## Demonstration
 
-![System Architecture](demonstration.png)
+![System Architecture](assets/demonstration.png)
 
 ### Process Flow
 
@@ -66,15 +66,6 @@ Unlike traditional single-prompt approaches, our agentic workflow enables:
 - **Collaborative Intelligence**: Multiple specialized agents work together for comprehensive results
 - **Real-time Problem Solving**: System handles unexpected website changes or data formats
 
-### System Architecture Diagram
-
-```
-User Query → Triage Agent → Browser-Use Agent ⟷ Local Browser
-    ↓             ↓              ↓
-  Output ← Gemini Flash LLM ← Tool Calls
-    ↑
-MAXIM AI Logs
-```
 
 The Agent SDK manages the orchestration between components, while the Triage Agent serves as the intelligent coordinator that determines when to engage different tools and agents.
 
@@ -121,8 +112,6 @@ The planning pattern allows agents to adjust their strategy if websites change o
 ### Smart Task Decomposition
 Complex phone comparisons are broken down into specialized sub-tasks, each handled by the most appropriate agent.
 
-### Continuous Learning
-The system uses reflection patterns to improve its approach based on previous results and user feedback.
 
 ### Human-Friendly Intelligence
 The output reads like a tech reviewer wrote it, combining the tool use pattern with natural language generation for practical advice.
@@ -152,28 +141,3 @@ The output reads like a tech reviewer wrote it, combining the tool use pattern w
 - **Goal-Oriented Planning**: Agents work backwards from the desired comparison format
 - **Resource Optimization**: Efficient use of API calls and web requests
 - **Quality Assurance**: Built-in validation and fact-checking workflows
-
-## Future Enhancements
-
-- **Learning Agents**: Agents that improve their strategies based on user feedback
-- **Specialized Sub-Agents**: Dedicated agents for camera analysis, performance testing, etc.
-- **Predictive Intelligence**: Agents that anticipate user needs and preferences
-- **Multi-Modal Capabilities**: Integration of image and video analysis agents
-
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## Support
-
-- **Issues**: For bugs and feature requests, please use [GitHub Issues](https://github.com/hksharma2004/browser-useLLM/issues)
-- **Discussions**: For general questions and ideas, visit [GitHub Discussions](https://github.com/hksharma2004/browser-useLLM/discussions)
-- **Email**: For other inquiries, contact us at hksharma2004@example.com
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Built with cutting-edge agentic AI workflows for people who want to make smarter phone buying decisions without spending hours researching.
