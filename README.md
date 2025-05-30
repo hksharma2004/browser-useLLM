@@ -8,7 +8,7 @@ Ever spent hours comparing phone specs across different websites? Browser-UseLLM
 
 ## What It Does
 
-Browser-UseLLM acts as your tireless tech research assistant, utilizing AI agents to:
+Browser-UseLLM acts as your tireless tech research assistant, utilizing AI agents:
 
 - **Smart Web Browsing**: Automatically visits tech websites like GSMArena, PhoneArena, and TechRadar
 - **Real-time Data Collection**: Scrapes current prices, specifications, and reviews
